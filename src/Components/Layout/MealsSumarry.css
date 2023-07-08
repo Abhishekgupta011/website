@@ -1,0 +1,23 @@
+.summary {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(199, 106, 19);
+    color: white;
+    width: 30%;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 1px 15px 10px rgba(0, 0, 0, 0.25);
+  }
+  h2 {
+    position: absolute;
+    top: 5px; /* Adjust the value to position it closer or further from the border top */
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+  }
+  
