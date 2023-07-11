@@ -1,48 +1,43 @@
 import React from 'react';
 import './Items.css'
+import { Card } from '@mui/material';
+import MealItem from './MealItem';
 const Items = [
   {
     id: '1',
     name: 'shoes',
     description:'lightweight',
-    price: '$ 20.11'
+    price: '$20.11'
   },
   {
     id: '2',
     name: 'bottle',
     description:'durability',
-    price: '$ 25'
+    price: '$25'
   },
   {
     id: '3',
     name: 'phones',
     description:'latest',
-    price: '$ 40'
+    price: '$40.444'
   },
 ]
 
 const AvailableItems = () => {
   const itemsList = Items.map((item) => (
-    <li key={item.id}>
-      <div className="meal-info">
-        <span className="meal-name">{item.name}</span>
-        <br />
-        <span className="meal-description">{item.description}</span><br/>
-        <span className='meal-price'>{item.price}</span>
-      </div>
-      <div className="amount-container">
-        {/* <label>Amount</label>
-        <input size={1} maxLength={3} />
-        <button className="add">+ Add</button> */}
-      </div>
-    </li>
+    <MealItem
+      key = {item.id}
+      name = {item.name}
+      description = {item.description}
+      price = {item.price}
+    />
   ));
 
   return (
     <section className="item">
-      <div>
+      <Card>
         <ul className="list">{itemsList}</ul>
-      </div>
+      </Card>
     </section>
   );
 };

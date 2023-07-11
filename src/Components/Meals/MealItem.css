@@ -1,0 +1,20 @@
+.form{
+    display: inline;
+    justify-content: space-between;
+    
+   
+}
+.meal-name{
+    text-transform: capitalize;
+}
+.meal-price{
+    font-weight: 900;
+    color: rgb(134, 51, 12);
+}
+.meal-description{
+    color: rgb(143, 139, 139);
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: small;
+}
+

@@ -1,0 +1,32 @@
+.add {
+    cursor: pointer;
+    background-color: rgb(206, 90, 36);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 5px 20px;
+
+  }
+  
+.add:hover {
+    background-color: rgb(134, 51, 12);
+}
+li{
+    border-bottom: 1px solid rgb(179, 174, 174);
+    padding: 10px;
+    width: 95%;
+   
+}
+label{
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.label{
+    padding: 10px;
+}
+
+.amount-container{
+    float: right;
+    transform: translatey(-100%);
+}
