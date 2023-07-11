@@ -6,7 +6,7 @@ const Header = () =>{
     return(
         <div>
         <header className='header'>
-             <h2>ReactMeals</h2>
+             <h2 className='headingg'>ReactMeals</h2>
              <HeaderButton/>
         </header>
         <div className='image'>

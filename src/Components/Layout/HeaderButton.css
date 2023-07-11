@@ -31,3 +31,6 @@
 .button:hover {
     background-color: rgb(56, 19, 2);
 }
+.button-container{
+    padding-right: 5%;
+}

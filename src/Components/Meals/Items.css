@@ -1,0 +1,55 @@
+.item{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(224, 223, 221);
+    color: black;
+    width: 65%;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 1px 15px 10px rgba(0, 0, 0, 0.25);
+  }
+
+.list{
+    list-style: none;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(206, 90, 36);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 5px 20px;
+  }
+  
+.add:hover {
+    background-color: rgb(134, 51, 12);
+}
+li{
+    border-bottom: 1px solid rgb(179, 174, 174);
+    padding: 10px;
+    border-width: 100%;
+}
+label{
+    margin-right: 5px;
+    font-weight: bold;
+}
+.meal-name{
+    text-transform: capitalize;
+}
+.meal-price{
+    font-weight: 900;
+    color: rgb(134, 51, 12);
+}
+.meal-description{
+    color: rgb(143, 139, 139);
+    text-transform: capitalize;
+    font-style: italic;
+}
