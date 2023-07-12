@@ -1,3 +1,4 @@
+import Cart from "./Components/Cart/Cart";
 import Header from "./Components/Layout/Header";
 import MealsSummary from "./Components/Layout/MealsSummary";
 import AvailableItems from "./Components/Meals/Items";
@@ -9,6 +10,7 @@ function App() {
    <Header/>
    <MealsSummary/>
    <AvailableItems/>
+   <Cart/>
    </>
   );
 }
