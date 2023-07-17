@@ -1,0 +1,45 @@
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cartItem h3 {
+    margin: 5px;
+  }
+  
+  .itemCount {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .itemCount .price {
+    margin-right: 50px;
+    color: rgb(134, 51, 12);
+    font-weight: 900;
+  }
+  
+  .itemCount .amount {
+    color: #888;
+  }
+  
+  .adds,button {
+    margin: 10px;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: none;
+    background-color: #eee;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .adds:hover {
+    background-color: #ccc;
+  }
+  button:hover {
+    background-color: #ccc;
+  }
+  
