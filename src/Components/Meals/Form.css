@@ -1,32 +1,22 @@
-.add {
-    cursor: pointer;
-    background-color: rgb(206, 90, 36);
-    color: white;
-    border-radius: 25px;
-    border: none;
-    padding: 5px 20px;
-    margin-left: 50px;
-  }
-  
-.add:hover {
-    background-color: rgb(134, 51, 12);
+.form {
+    width: 100%;
+    text-transform: capitalize;
+    
 }
-li{
-    border-bottom: 1px solid rgb(179, 174, 174);
-    padding: 10px;
-    width: 95%;
-   
+input{
+    width: 40%;
+}
+.add{
+    background-color: rgb(206, 90, 36);
+    border-radius: 20px;
+    border: none;
+    padding: 5%;
+    color: white;
+    float: right;
+    margin-top: 10px;
 }
 label{
-    margin-right: 5px;
-    font-weight: bold;
+    margin-right: 3px;
+    font-weight: bolder;
 }
 
-.label{
-    padding: 10px;
-}
-
-.amount-container{
-    float: right;
-    transform: translatey(-100%);
-}

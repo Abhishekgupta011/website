@@ -1,6 +1,6 @@
 import React from 'react';
 import './Items.css'
-import { Card } from '@mui/material';
+import Card from '../UI/Card';
 import MealItem from './MealItem';
 const Items = [
   {
@@ -35,11 +35,11 @@ const AvailableItems = () => {
   ));
 
   return (
-    <section className="item">
+    
       <Card>
         <ul className="list">{itemsList}</ul>
       </Card>
-    </section>
+    
   );
 };
 

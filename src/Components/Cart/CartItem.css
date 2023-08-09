@@ -26,7 +26,7 @@
     color: #888;
   }
   
-  .adds,button {
+  .adds, .remove {
     margin: 10px;
     font-size: 1rem;
     padding: 5px 10px;
@@ -34,6 +34,11 @@
     background-color: #eee;
     color: #333;
     cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+  }
+  .remove{
+    padding: 5px 12px;
   }
   
   .adds:hover {

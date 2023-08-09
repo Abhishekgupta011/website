@@ -1,9 +1,11 @@
-.form{
-    display: inline;
-    justify-content: space-between;
-    
-   
-}
+.list-items {
+    display: grid;
+    grid-template-columns: 1fr auto; /* This sets two columns, one for the list and one for the Form */
+    gap: 20px; /* Adjust the gap between the list and the Form */
+    align-items: center; /* Vertically center the items in the container */
+    margin-bottom: 30px;
+    border-bottom:1px solid rgb(199, 196, 196);
+  }
 .meal-name{
     text-transform: capitalize;
 }
@@ -16,5 +18,9 @@
     text-transform: capitalize;
     font-style: italic;
     font-size: small;
+}
+.meal-info{
+    line-height: 2;
+    
 }
 
