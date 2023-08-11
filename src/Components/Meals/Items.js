@@ -21,6 +21,12 @@ const Items = [
     description:'Stir-fried rice noodles with shrimp, chicken',
     price: 40.444
   },
+  {
+    id: '4',
+    name: 'Grilled Vegetable Platter',
+    description:'Zucchini, Bell peppers, Eggplant, etc.',
+    price: 18
+  }
 ]
 
 const AvailableItems = () => {

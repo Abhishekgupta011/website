@@ -1,0 +1,31 @@
+.footer {
+    background-color: rgb(236, 188, 190);
+    border: 80px solid white;
+    color: rgb(15, 131, 60);
+    padding: 20px;
+
+}
+
+.footer-content {
+    padding: 4%;
+}
+
+.hungry{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+.footer h1 {
+    margin: 0; /* Remove default margin for h1 */
+    
+}
+
+.footer p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+

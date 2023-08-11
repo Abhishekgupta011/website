@@ -4,6 +4,7 @@ import Header from "./Components/Layout/Header";
 import MealsSummary from "./Components/Layout/MealsSummary";
 import AvailableItems from "./Components/Meals/Items";
 import CartProvider from "./Components/Store/cartProvider";
+import Footer from "./Components/Layout/Footer";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
    <MealsSummary/>
    <AvailableItems/>
    {cartVisible && <Cart onClose = {HideCart}/>}
+   <Footer/>
    </CartProvider>
   );
 }

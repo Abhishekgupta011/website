@@ -1,0 +1,22 @@
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    list-style: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-text{
+    font-size: larger;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navbar-text:hover{
+    color: #fffd9d;
+}
+ .home{
+    color: #fffd9d;
+    font-size: larger;
+}
+

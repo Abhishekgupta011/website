@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Rubik+Wet+Paint&display=swap');
 .cartItem {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(53, 207, 112);
+    margin-bottom: 20px;
   }
   
   .cartItem h3 {
     margin: 5px;
+    color: rgb(19, 143, 66);
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 160%;
   }
   
   .itemCount {
@@ -18,12 +23,12 @@
   
   .itemCount .price {
     margin-right: 50px;
-    color: rgb(134, 51, 12);
+    color: rgb(19, 143, 66);
     font-weight: 900;
   }
   
   .itemCount .amount {
-    color: #888;
+    color: rgb(19, 143, 66);
   }
   
   .adds, .remove {

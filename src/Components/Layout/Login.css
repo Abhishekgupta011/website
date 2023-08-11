@@ -1,0 +1,11 @@
+.login-container{
+    display: inline-flex;
+    vertical-align: middle;
+    margin-right: 10px;
+    color: #fffd9d;
+}
+
+.iconStyle{
+    font-size: 5%;
+    margin-right: 5px;
+}

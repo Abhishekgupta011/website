@@ -4,9 +4,8 @@ const MealsSummary = () =>{
       <div className="c">
       <section className="summary">
       <h2 className='heading'>Delicious Food</h2>
-          <p className='summ'>Food restaurant offering delicious dishes with a variety of flavors and ingredients.
-          A perfect dining experience combining quality ingredients,
-          skilled chefs, and excellent service.</p>
+          <p className='first-note'>QUALITY PRODUCTS. HAWAIIAN FLAVOURS.</p>
+          <p className='second-note'>Open Daily for Takeout & Delivery</p>
      </section>
      </div>
     )

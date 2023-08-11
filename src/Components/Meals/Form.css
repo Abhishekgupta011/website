@@ -7,10 +7,9 @@ input{
     width: 40%;
 }
 .add{
-    background-color: rgb(206, 90, 36);
-    border-radius: 20px;
+    background-color: rgb(15, 131, 60);
     border: none;
-    padding: 5%;
+    padding: 5% 9%;
     color: white;
     float: right;
     margin-top: 10px;
