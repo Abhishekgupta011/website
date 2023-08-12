@@ -45,6 +45,13 @@
     width: 80%;
   }
 
+  .c {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 50%;
+    transform: none;
+  }
   /* Adjust the heading font size for smaller screens */
   .heading {
     font-size: 400%;
@@ -58,4 +65,5 @@
   .second-note {
     font-size: 120%;
   }
+  
 }
