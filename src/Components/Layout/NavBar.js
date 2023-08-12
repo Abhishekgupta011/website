@@ -9,6 +9,7 @@ const NavBar =(props) =>{
                 <li className="home">Home</li>
                 <li className="navbar-text">About</li>
                 <li className="navbar-text">Menu</li>
+                <li className="navbar-text">gallery</li>
                 <li className="navbar-text">Contact Us</li>
                 <Login />
             </ul>

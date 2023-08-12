@@ -35,7 +35,9 @@ const Cart = (props) => {
         <button className="close" onClick={props.onClose}>
           Close
         </button>
+      
         {hasItems && <button className="order">Add To My Order <span>{totalAmount}</span></button>}
+      
       </div>
     </Modal>
   );

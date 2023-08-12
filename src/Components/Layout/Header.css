@@ -9,22 +9,22 @@
     z-index: 1;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.25);
+    background: linear-gradient(#0007, #fff0);
     padding: 10px 20px; /* Add padding for better spacing */
     transition: background-color 0.3s ease; /* Add a transition for smoother background changes */
+    
 }
 
 /* Heading styles */
 .foodie {
-    font-size: 2em; /* Use em units for responsive font size */
+    /* Use em units for responsive font size */
     margin: 0;
 }
 
 /* Title styles */
 .title {
-    display: flex;
-    flex-direction: column; /* Stack the elements vertically */
-    align-items: flex-start; /* Align elements to the left */
+    font-size: 26px;
+    letter-spacing: 3px;
     color: white;
     font-weight: bolder;
     margin-left: 20px;
@@ -53,7 +53,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 50px; /* Reduce gap for smaller screens */
-    transform: translateY(-50%);
+    transform: translateY(-20%);
     transition: gap 0.3s ease; /* Add a transition for smoother gap changes */
 }
 

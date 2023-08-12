@@ -8,8 +8,8 @@ const Header = (props) =>{
         <header className='header'>
         <div className='title'>
              <span className='foodie'>Foodie</span>
-             <span className='fusion' style={{fontSize:'100%'}}>Fusion</span>
-             <span className='finds' style={{fontSize:'200%'}}>Finds</span>
+             <span className='fusion'>Fusion</span>
+             <span className='finds' >Finds</span>
              </div>
              <div className='bar-section'>
                 <NavBar/>

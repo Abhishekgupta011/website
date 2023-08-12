@@ -5,7 +5,7 @@
     gap: 30px;
     list-style: none;
     cursor: pointer;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: bold;
 }
 .navbar-text{
