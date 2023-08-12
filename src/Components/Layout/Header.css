@@ -65,4 +65,7 @@
         align-items: flex-start; /* Align items to the left on smaller screens */
         transform: none; /* Reset transform for smaller screens */
     }
+    .header{
+        height: 30%;
+    }
 }
