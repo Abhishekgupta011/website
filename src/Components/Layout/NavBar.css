@@ -20,3 +20,14 @@
     font-size: larger;
 }
 
+@media screen and (max-width: 768px) {
+    .navbar-list {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center; /* Center items vertically on smaller screens */
+      gap: 10px; /* Reduce gap between items */
+    }
+  
+    .home {
+      font-size: larger;
+    }
+  }

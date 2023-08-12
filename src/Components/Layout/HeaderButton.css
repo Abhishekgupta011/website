@@ -1,19 +1,26 @@
-.badge{
+/* Base styles for the badge */
+.badge {
     background-color: rgb(31, 168, 84);
-    padding: 0.25rem 1rem;
+    padding: 0.25rem 0.5rem; /* Reduced horizontal padding for responsiveness */
     border-radius: 25px;
-    margin-left: 10px;
+    margin-left: 0.5rem; /* Reduced margin for spacing */
     font-weight: bold;
     color: white;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 90%; /* Use relative font size for responsiveness */
 }
-.badge:hover{
+
+.badge:hover {
     background-color: rgb(19, 143, 66);
 }
-.label{
-    margin-left: 5px;
+
+/* Label styles */
+.label {
+    margin-left: 0.25rem; /* Reduced margin for spacing */
 }
+
+/* Button styles */
 .button {
     display: flex;
     align-items: center;
@@ -22,12 +29,27 @@
     background-color: rgb(15, 131, 60);
     color: white;
     border: none;
-    padding: 10px 40px;
+    padding: 8px 20px; /* Reduced padding for responsiveness */
     transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
+    font-size: 100%; /* Use relative font size for responsiveness */
+}
+
 .button:hover {
     background-color: rgb(243, 240, 240);
     color: rgb(15, 131, 60);
 }
 
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .badge {
+        font-size: 80%; /* Decrease font size for smaller screens */
+    }
+
+    .label {
+        margin-left: 0.15rem; /* Further reduced margin for smaller screens */
+    }
+
+    .button {
+        font-size: 90%; /* Decrease font size for smaller screens */
+    }
+}

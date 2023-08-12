@@ -1,7 +1,7 @@
-
+/* Base styles for the header */
 .header {
     position: absolute;
-    top: 0; 
+    top: 0;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -9,14 +9,18 @@
     z-index: 1;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0,0.25);
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 10px 20px; /* Add padding for better spacing */
+    transition: background-color 0.3s ease; /* Add a transition for smoother background changes */
 }
 
+/* Heading styles */
 .foodie {
-    font-size: 200%;
+    font-size: 2em; /* Use em units for responsive font size */
     margin: 0;
 }
 
+/* Title styles */
 .title {
     display: flex;
     flex-direction: column; /* Stack the elements vertically */
@@ -24,11 +28,14 @@
     color: white;
     font-weight: bolder;
     margin-left: 20px;
+    transition: color 0.3s ease; /* Add a transition for smoother color changes */
 }
 
+/* Image styles */
 .image {
     overflow: hidden;
     z-index: -1;
+    width: 100%; /* Ensure image takes full width */
 }
 
 .image img {
@@ -37,12 +44,25 @@
     height: 100%;
     object-fit: cover;
     object-position: top;
+    transition: opacity 0.3s ease; /* Add a transition for smoother image changes */
 }
-.bar-section{
+
+/* Bar section styles */
+.bar-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 50px; /* Reduce gap for smaller screens */
     transform: translateY(-50%);
+    transition: gap 0.3s ease; /* Add a transition for smoother gap changes */
 }
 
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .bar-section {
+        flex-direction: column; /* Stack bar section items vertically on smaller screens */
+        gap: 20px; /* Reduce gap for smaller screens */
+        align-items: flex-start; /* Align items to the left on smaller screens */
+        transform: none; /* Reset transform for smaller screens */
+    }
+}

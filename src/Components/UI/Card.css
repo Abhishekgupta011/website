@@ -11,3 +11,10 @@
     display: grid;
     place-items: center;
   }
+
+  @media screen and (max-width: 768px) {
+    .card{
+      width: 90%;
+    }
+    
+} 

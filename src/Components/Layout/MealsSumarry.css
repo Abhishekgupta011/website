@@ -39,3 +39,23 @@
 }
 
 
+@media screen and (max-width: 768px) {
+  /* Adjust the summary width for smaller screens */
+  .summary {
+    width: 80%;
+  }
+
+  /* Adjust the heading font size for smaller screens */
+  .heading {
+    font-size: 400%;
+  }
+
+  /* Adjust the note font sizes for smaller screens */
+  .first-note {
+    font-size: 140%;
+  }
+
+  .second-note {
+    font-size: 120%;
+  }
+}
