@@ -31,7 +31,7 @@
     color: rgb(19, 143, 66);
   }
   
-  .adds, .remove {
+  .adds, .remove{
     margin: 10px;
     font-size: 1rem;
     padding: 5px 10px;
@@ -52,4 +52,16 @@
   button:hover {
     background-color: #ccc;
   }
-  
+
+  .delete{
+    background-color: #64bd97;
+    border: none;
+    color: white;
+    padding: 5%;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+  }

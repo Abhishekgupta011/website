@@ -17,6 +17,10 @@ const Cart = (props) => {
     cartCtx.removeItem(id);
   };
 
+  const deleteItemHandler = (id) =>{
+    cartCtx.deleteItem(id)
+  }
+
   const cartItemsList = cartCtx.items.map((item) => (
     <CartItem
       key={item.id}
@@ -25,6 +29,7 @@ const Cart = (props) => {
       price={item.price}
       onAdd={addItemsHandler.bind(null , item)} // Use bind to pass the item
       onRemove={removeItemsHandler.bind(null, item.id)} // Use arrow function to pass the id
+      onDelete = {deleteItemHandler.bind(null, item.id)}
     />
   ));
 

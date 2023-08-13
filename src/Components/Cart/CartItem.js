@@ -12,9 +12,10 @@ const CartItem = (props) => {
           <span className="amount">x {props.amount}</span>
         </div>
       </div>
-      <div>
+      <div className="buttons">
         <button onClick={props.onAdd} className="adds">+</button>
         <button onClick={props.onRemove} className="remove">-</button>
+        <button onClick={props.onDelete} className="delete">Delete</button>
       </div>
       
     </li>
